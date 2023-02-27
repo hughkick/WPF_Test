@@ -17,6 +17,8 @@ namespace combo_eidt_box
             if (e.Key == Key.Return)
             {
                 box1.Items.Add(box1.Text);
+
+                box1.SelectedIndex = box1.Items.Count - 1;
             }
         }
     }
